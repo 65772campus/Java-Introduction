@@ -108,7 +108,7 @@ public class BookWork {
 
 
         int sum = firstNumber + secondNumber + thirdNumber;
-        int average = (firstNumber + secondNumber + thirdNumber) / 3;
+        int average = (sum) / 3;  // the number divided at the end is how many numbers you got/inputs so change depending on inputs
 
 
 
