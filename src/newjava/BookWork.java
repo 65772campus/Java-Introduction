@@ -24,6 +24,9 @@ public class BookWork {
 
 
 
+
+
+
 //        /* SHOPPING APP */
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("Enter your first item's price: ");
@@ -51,33 +54,22 @@ public class BookWork {
 
 
 
-        /* Weekday/Weekend */
-        Scanner input = new Scanner(System.in);
-        System.out.println("What is the current day (enter between 1-7) ");
-        int date = Integer.parseInt(input.next());
 
-
-        if (date > 0 && date <= 5) {
-            System.out.println("It's a Working Day");
-        }
-        else if (date > 5 && date <= 7  ) {
-            System.out.println("It's the Weekend!");
-        }
-        else {
-            System.out.println("Invalid");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
+//        /* WEEKDAY/WEEKEND */
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("What is the current day (enter between 1-7) ");
+//        int date = Integer.parseInt(input.next());
+//
+//
+//        if (date > 0 && date <= 5) {
+//            System.out.println("It's a Working Day");
+//        }
+//        else if (date > 5 && date <= 7  ) {
+//            System.out.println("It's the Weekend!");
+//        }
+//        else {
+//            System.out.println("Invalid");
+//        }
 
 
 
@@ -93,6 +85,32 @@ public class BookWork {
 //
 //            default: System.out.println("Please enter a correct number next time, and try again."); break;
 //        }
+
+
+
+
+
+
+        /* ARITHMETIC */
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter three numbers and i'll give you the sum, average, smallest and largest. ");
+
+        System.out.println("Enter your first number: ");
+        int firstNumber = input.nextInt();
+
+
+        System.out.println("Enter your second number: ");
+        int secondNumber = input.nextInt();
+
+
+        System.out.println("Enter your third number: ");
+        int thirdNumber = input.nextInt();
+
+
+        int sum = firstNumber + secondNumber + thirdNumber;
+        int average = (firstNumber + secondNumber + thirdNumber) / 3;
+
+
 
 
     }
