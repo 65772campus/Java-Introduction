@@ -23,10 +23,6 @@ public class BookWork {
 //        System.out.println(result);
 
 
-
-
-
-
 //        /* SHOPPING APP */
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("Enter your first item's price: ");
@@ -53,8 +49,6 @@ public class BookWork {
 //        input.close();
 
 
-
-
 //        /* WEEKDAY/WEEKEND */
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("What is the current day (enter between 1-7) ");
@@ -70,8 +64,6 @@ public class BookWork {
 //        else {
 //            System.out.println("Invalid");
 //        }
-
-
 
 
 //        switch(date){
@@ -92,26 +84,110 @@ public class BookWork {
 
 
         /* ARITHMETIC */
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter three numbers and i'll give you the sum, average, smallest and largest. ");
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter three numbers, and I'll give you the sum, average, smallest and largest. ");
+//
+//        System.out.println("Enter your first number: ");
+//        int firstNumber = input.nextInt();
+//
+//
+//        System.out.println("Enter your second number: ");
+//        int secondNumber = input.nextInt();
+//
+//
+//        System.out.println("Enter your third number: ");
+//        int thirdNumber = input.nextInt();
+//
+//        int smallest = firstNumber;
+//        int largest = firstNumber;
+//
+//        if (secondNumber < smallest) smallest = secondNumber;
+//        if (thirdNumber < smallest) smallest = thirdNumber;
+//
+//        if (secondNumber > largest) largest = secondNumber;
+//        if (thirdNumber > largest) largest = thirdNumber;
+//
+//
+//        int sum = firstNumber + secondNumber + thirdNumber;
+//        int average = (sum) / 3;  // the number divided at the end is how many numbers you got/inputs so change depending on inputs
+//
+//        System.out.println("The sum is: " + sum);
+//        System.out.println("The average is: " + average);
+//        System.out.println("The smallest is: " + smallest + "\nand largest is: " + largest);
 
-        System.out.println("Enter your first number: ");
-        int firstNumber = input.nextInt();
 
 
-        System.out.println("Enter your second number: ");
-        int secondNumber = input.nextInt();
 
 
-        System.out.println("Enter your third number: ");
-        int thirdNumber = input.nextInt();
 
 
-        int sum = firstNumber + secondNumber + thirdNumber;
-        int average = (sum) / 3;  // the number divided at the end is how many numbers you got/inputs so change depending on inputs
+        /* DISPLAYING SHAPES AND ASTERISKS */
+
+//        System.out.println("*************       ***      *        *    ");
+//        System.out.println("*           *      *   *    ***      * *   ");
+//        System.out.println("*           *      *   *   *****    *   *  ");
+//        System.out.println("*           *      *   *     *       * *   ");
+//        System.out.println("*           *       ***      *        *    ");
+//        System.out.println("*           *                        ");
+//        System.out.println("*           *                        ");
+//        System.out.println("*           *                        ");
+//        System.out.println("*************                        ");
+
+
+
+
+
+
+
+
+
+
+        /* ODD OR EVEN */
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Enter a number and i will give you an ODD or EVEN Answer: ");
+//        int inputNumber = input.nextInt();
+//
+//        if (inputNumber % 2 == 0) {
+//            System.out.println("Your result is Even: " + inputNumber);
+//        } else {
+//            System.out.println("Your result is Odd: " + inputNumber);
+//        }
+
+
+
+
+
+
+
+
+
+
+//        /* MULTIPLE */
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter your first number: ");
+//        int firstNumber = scanner.nextInt();
+//
+//        System.out.println("Enter your second number: ");
+//        int secondNumber = scanner.nextInt();
+//
+//        if (firstNumber % secondNumber == 0) {
+//            System.out.println(firstNumber + " Is a multiple of " + secondNumber);
+//        }
+
+
+
+
+
+
+
+
+
+        /* DIAMETER & CIRCUMFERENCE */
 
 
 
 
     }
 }
+
