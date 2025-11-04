@@ -145,7 +145,7 @@ public class BookWork {
         /* ODD OR EVEN */
 //        Scanner input = new Scanner(System.in);
 //
-//        System.out.println("Enter a number and i will give you an ODD or EVEN Answer: ");
+//        System.out.println("Enter a number and I will give you an ODD or EVEN Answer: ");
 //        int inputNumber = input.nextInt();
 //
 //        if (inputNumber % 2 == 0) {
@@ -184,6 +184,120 @@ public class BookWork {
 
 
         /* DIAMETER & CIRCUMFERENCE */
+
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Enter the radius of the circle");
+//        double radius = input.nextDouble();
+//
+//
+//        double diameter = 2 * radius;
+//        double circumference = 2 * Math.PI * radius;
+//        double area = Math.PI * radius * radius;
+//
+//
+//        System.out.println("Diameter: " + diameter);
+//        System.out.println("Circumference: " + circumference);
+//        System.out.println("Area: " + area);
+
+
+
+
+
+
+
+
+        /* INTEGER EQUIVALENT OF A CHARACTER */
+
+        // Characters
+//        char letterA = 'A';
+//        char letterB = 'B';
+//        char letterC = 'C';
+//
+//        char lowerA = 'a';
+//        char lowerB = 'b';
+//        char lowerC = 'c';
+//
+//        char num0 = '0';
+//        char num1 = '1';
+//        char num2 = '2';
+//
+//        char special1 = '$';
+//        char special2 = '*';
+//        char special3 = '+';
+//        char special4 = '/';
+//        char special5 = ' ';
+//
+//
+//
+//        // Values
+//        int valueA = (int) letterA;
+//        int valueB = (int) letterB;
+//        int valueC = (int) letterC;
+//
+//        int valuelowerA = (int) lowerA;
+//        int valuelowerB = (int) lowerB;
+//        int valuelowerC = (int) lowerC;
+//
+//        int value0 = (int) num0;
+//        int value1 = (int) num1;
+//        int value2 = (int) num2;
+//
+//        int valuespecial1 = (int) special1;
+//        int valuespecial2 = (int) special2;
+//        int valuespecial3 = (int) special3;
+//        int valuespecial4 = (int) special4;
+//        int valuespecial5 = (int) special5;
+//
+//
+//
+//
+//        System.out.println("A = " + valueA);
+//        System.out.println("B = " + valueB);
+//        System.out.println("C = " + valueC);
+//
+//        System.out.println("a = " + valuelowerA);
+//        System.out.println("b = " + valuelowerB);
+//        System.out.println("c = " + valuelowerC);
+//
+//        System.out.println("0 = " + value0);
+//        System.out.println("1 = " + value1);
+//        System.out.println("2 = " + value2);
+//
+//        System.out.println("$ = " + valuespecial1);
+//        System.out.println("* = " + valuespecial2);
+//        System.out.println("+ = " + valuespecial3);
+//        System.out.println("/ = " + valuespecial4);
+//        System.out.println("Space = " + valuespecial5);
+
+
+
+
+
+
+
+        /* DIGITS OF AN INTEGER */
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input a 5 digit number: ");
+        int num = input.nextInt();
+
+        String numString = String.valueOf(num);
+
+        if (numString.length() == 5){
+            for (int i = 0; i < numString.length(); i++) {
+                System.out.print(numString.charAt(i) + " ");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
 
 
 
