@@ -277,24 +277,59 @@ public class BookWork {
 
         /* DIGITS OF AN INTEGER */
 
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Input a 5 digit number: ");
+//        int num = input.nextInt();
+//
+//        String numString = String.valueOf(num);
+//
+//        if (numString.length() == 5){
+//            for (int i = 0; i < numString.length(); i++) {
+//                System.out.print(numString.charAt(i) + "   ");
+//            }
+//        }
+
+
+
+
+
+
+
+
+//        /* MULTIPLICATION TABLE OF A NUMBER */
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Enter a number that can be multiplied up to 10x: ");
+//        int num = input.nextInt();
+//
+//        for (int i = 0; i <= 10; i++) {
+//            System.out.printf("%-10d   X   %-10d   =   %-10d%n", num, i, num * i);
+//        }
+
+
+
+
+
+
+
+
+        /* COUNTING NEGATIVE, POSITIVE, AND ZERO VALUES */
         Scanner input = new Scanner(System.in);
-        System.out.println("Input a 5 digit number: ");
-        int num = input.nextInt();
 
-        String numString = String.valueOf(num);
+        System.out.println("Enter your first number: ");
+        int num1 = input.nextInt();
 
-        if (numString.length() == 5){
-            for (int i = 0; i < numString.length(); i++) {
-                System.out.print(numString.charAt(i) + " ");
-            }
-        }
+        System.out.println("Enter your second number: ");
+        int num2 = input.nextInt();
 
+        System.out.println("Enter your third number: ");
+        int num3 = input.nextInt();
 
+        System.out.println("Enter your fourth number: ");
+        int num4 = input.nextInt();
 
-
-
-
-
+        System.out.println("Enter your fifth number:");
+        int num5 = input.nextInt();
 
 
 
